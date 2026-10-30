@@ -65,7 +65,7 @@
         const product = byId(item.id);
         if (!product) return "";
         const variantText = Object.entries(item.variant || {}).map(([key, value]) => `${escapeHtml(key)}: ${escapeHtml(value)}`).join(" · ");
-        return `<article class="cart-line" data-cart-line="${escapeHtml(cartKey(item))}"><img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}"><div><h3>${escapeHtml(product.name)}</h3><p>${variantText || "Edición Glamm"}</p><strong class="cart-line-price">${money(product.price * item.quantity)}</strong><div class="cart-line-controls"><button type="button" data-line-action="minus" aria-label="Restar unidad">−</button><span>${item.quantity}</span><button type="button" data-line-action="plus" aria-label="Sumar unidad">+</button><button type="button" class="remove-line" data-line-action="remove">Quitar</button></div></div></article>`;
+        return `<article class="cart-line" data-cart-line="${escapeHtml(cartKey(item))}"><img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}"><div><h3>${escapeHtml(product.name)}</h3><p>${variantText || "Edición Glamm"}</p><strong class="cart-line-price">${money(product.price * item.quantity)}</strong><div class="cart-line-controls"><button type="button" data-line-action="minus" aria-label="Restar unidad">−</button><span>${item.quantity}</span><button type="button" data-line-action="plus" aria-label="Sumar unidad">+</button><button type="button" class="remove-line" data-line-action="remove" aria-label="Quitar producto" title="Quitar producto">×</button></div></div></article>`;
       }).join("");
     }
     if (empty) empty.classList.toggle("visible", cart.length === 0);
