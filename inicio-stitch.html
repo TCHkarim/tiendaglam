@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "promo-emerald": "#00A86B", "outline": "#8f6f76", "tertiary": "#b60057", "inverse-surface": "#2f3131", "tertiary-fixed-dim": "#ffb1c3", "surface-container-highest": "#e2e2e2", "surface-container-low": "#f3f3f3", "charcoal-ink": "#121212", "surface-dim": "#dadada", "secondary-fixed-dim": "#c8c6c5", "surface-container-lowest": "#ffffff", "background": "#f9f9f9", "border-subtle": "#EBEBEB", "primary-container": "#e30071", "surface-variant": "#e2e2e2", "on-surface-variant": "#5b3f46", "secondary": "#5f5e5e", "charcoal-muted": "#686868", "primary-fixed-dim": "#ffb1c5", "surface-warm": "#F9F9F8", "error-container": "#ffdad6", "on-secondary": "#ffffff", "inverse-primary": "#ffb1c5", "on-tertiary-container": "#fffbff", "secondary-container": "#e5e2e1", "primary-fixed": "ffd9e1", "surface-container-high": "#e8e8e8", "surface": "#f9f9f9", "on-primary-container": "#fffbff", "on-secondary-fixed": "#1c1b1b", "surface-tint": "#ba005c", "badge-pink-tint": "#FFF0F6", "on-error-container": "#93000a", "on-error": "#ffffff", "outline-variant": "#e3bdc5", "on-secondary-container": "#656464", "primary": "#b60059", "on-primary-fixed": "#3f001b", "secondary-fixed": "#e5e2e1", "tertiary-container": "#e3066e", "on-primary-fixed-variant": "#8f0045", "tertiary-fixed": "#ffd9e0", "on-background": "#1a1c1c", "whatsapp-green": "#25D366", "error": "#ba1a1a", "surface-card": "#FFFFFF", "on-primary": "#ffffff", "surface-bright": "#f9f9f9", "on-tertiary-fixed": "#3f0019", "on-surface": "#1a1c1c", "on-secondary-fixed-variant": "#474646", "surface-container": "#eeeeee", "inverse-on-surface": "#f0f1f1", "on-tertiary-fixed-variant": "#8f0042", "on-tertiary": "#ffffff" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-2xl": "4rem", "space-md": "1rem", "space-lg": "1.5rem", "gutter": "1.5rem", "space-xl": "2.5rem", "margin": "3rem", "space-xs": "0.25rem", "gutter-sm": "1rem", "space-sm": "0.5rem", "margin-mobile": "1.25rem" }, "fontFamily": { "headline-xl": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Plus Jakarta Sans" ], "label-sm": [ "Plus Jakarta Sans" ], "body-sm": [ "Plus Jakarta Sans" ], "price-transfer": [ "Plus Jakarta Sans" ], "headline-md": [ "Plus Jakarta Sans" ], "headline-lg": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Plus Jakarta Sans" ], "price-hero": [ "Plus Jakarta Sans" ], "label-lg": [ "Plus Jakarta Sans" ], "body-md": [ "Plus Jakarta Sans" ], "body-lg": [ "Plus Jakarta Sans" ] }, "fontSize": { "headline-xl": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.03em", "fontWeight": "800" } ], "headline-lg-mobile": [ "22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700" } ], "body-sm": [ "12px", { "lineHeight": "18px", "fontWeight": "400" } ], "price-transfer": [ "22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "headline-md": [ "20px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "headline-lg": [ "30px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" } ], "headline-xl-mobile": [ "28px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "price-hero": [ "32px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "label-lg": [ "14px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "700" } ], "body-md": [ "14px", { "lineHeight": "22px", "fontWeight": "400" } ], "body-lg": [ "16px", { "lineHeight": "26px", "fontWeight": "400" } ] } } } };</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full bg-charcoal-ink text-surface-container-lowest py-2 px-margin-mobile lg:px-margin text-center font-label-sm text-label-sm uppercase tracking-wider flex items-center justify-center gap-2"><span>ENVÍO GRATIS SUPERANDO LOS $150.000</span><span class="opacity-40">|</span><span>3 Y 6 CUOTAS SIN INTERÉS</span><span class="opacity-40">|</span><span class="hidden sm:inline">SHOWROOM CÓRDOBA CAPITAL</span></div><div class="max-w-[1360px] mx-auto px-margin-mobile lg:px-margin py-3 flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="Tienda Glamm Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WJw2anr0qcyAemIuS2l0UKK2JBJUYad3xlWfFDWRhX_YakTFlAfUcdvsIzrg2B8341GIWMJe4KT2RorrN-ZYUSnTu5dueuq2YRa8SDKu_RU5tnW48bx-mU1ipx9ym5RgeqBDGcw9sSlwmIB002k9OLfWvQs-tByMn7-jz2CBobMsCQtLHjSa8NdNkFEwaCTo6zFENa7Z_WWl7D4Uaf1-WVvE8Q_c8AAxzPKa-PQYI"/><a class="font-headline-md text-headline-md tracking-tight uppercase text-charcoal-ink" data-path="inicio" href="#">Tienda Glamm</a></div><div class="hidden md:flex flex-1 max-w-xl mx-space-lg items-center bg-surface-container-low rounded-full px-space-md py-2"><span class="material-symbols-outlined text-secondary mr-2 text-[20px]">search</span><input class="w-full bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-secondary focus:outline-none" placeholder="Buscar vestidos, conjuntos, tops..." type="text"/></div><div class="flex items-center gap-space-md lg:gap-space-lg"><a class="hidden sm:flex items-center gap-space-xs font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-primary transition-colors" data-path="cuenta" href="#"><span>Iniciar sesión / Crear cuenta</span></a><a class="flex items-center gap-space-xs bg-badge-pink-tint px-space-md py-2 rounded-full font-label-sm text-label-sm uppercase text-primary hover:bg-primary hover:text-on-primary transition-colors" data-path="carrito" href="#"><span class="material-symbols-outlined text-[18px]">shopping_bag</span><span>Mi Carrito (0)</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div><div class="max-w-[1360px] mx-auto px-margin-mobile lg:px-margin overflow-x-auto scrollbar-none"><nav class="flex items-center gap-space-lg py-2.5 whitespace-nowrap" data-active-classes="text-primary font-bold border-b-2 border-primary"><a aria-current="page" class="uppercase transition-colors py-1 text-primary font-bold border-b-2 border-primary" data-path="inicio" href="#">INICIO</a><a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="calzados" href="#">CALZADOS</a><a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="pantalones" href="#">PANTALONES</a><a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="tops-y-remes" href="#">TOPS Y REMES</a><a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="abrigos" href="#">ABRIGOS</a><a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="catsuits" href="#">CATSUITS</a><a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="prendas-de-noche" href="#">PRENDAS DE NOCHE</a><a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="vestidos" href="#">VESTIDOS</a><a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="conjuntos-sets" href="#">CONJUNTOS/SETS</a><a class="font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="sale" href="#">SALE</a></nav></div></header><main class="w-full pt-36 bg-background"><div class="flex flex-col w-full">
+<!-- Top Trust & Incentive Bar -->
+<section class="w-full bg-surface-container-lowest py-3 px-margin-mobile lg:px-margin shadow-sm">
+<div class="max-w-[1360px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-gutter text-center items-center">
+<div class="flex items-center justify-center gap-space-xs text-charcoal-ink">
+<span class="material-symbols-outlined text-[20px] text-primary">local_shipping</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Envío Gratis &gt; $150.000</span>
+</div>
+<div class="flex items-center justify-center gap-space-xs text-charcoal-ink">
+<span class="material-symbols-outlined text-[20px] text-promo-emerald">payments</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">30% OFF Transferencia</span>
+</div>
+<div class="flex items-center justify-center gap-space-xs text-charcoal-ink">
+<span class="material-symbols-outlined text-[20px] text-primary">credit_score</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">3 y 6 Cuotas Sin Interés</span>
+</div>
+<div class="flex items-center justify-center gap-space-xs text-charcoal-ink">
+<span class="material-symbols-outlined text-[20px] text-charcoal-ink">storefront</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Showroom Córdoba Capital</span>
+</div>
+</div>
+</section>
+<!-- Editorial Hero Section -->
+<section class="relative w-full px-margin-mobile lg:px-margin pt-space-lg pb-space-2xl">
+<div class="max-w-[1360px] mx-auto">
+<div class="relative overflow-hidden rounded-xl bg-charcoal-ink text-surface-container-lowest shadow-xl">
+<!-- Background Editorial Visual with Mood Scrim -->
+<div class="absolute inset-0 bg-cover bg-center opacity-55 mix-blend-luminosity scale-105 transition-transform duration-1000 ease-out hover:scale-100" data-alt="Editorial high-fashion campaign photo featuring two stylish young women in sleek black party outfits, glossy satin catsuits and corset tops, posing against a moody minimalist studio backdrop with dramatic sharp highlights and deep shadows representing modern Argentine nightlife glamour." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDWmubSh_zlJzUbY6AjlRT2K2QUwodYEJZA0oYCIoz_Ha8BFXWdARC6UEf-i1dm9uGvZLI793A0w8WccQ1iN_xK0Vo4JuqS0u12tAp2vQZr081G6uaRqIpxd34_EY1srLblVAlYYpPDGS_O-YCo14UhDfOHJhnP3PckV-fLAvRAHWdaMRCWKPywrhjNaK7f4QVHpkNp1zTwdYU6SJmUOip6eRS63uNG9SY5fGN_0Y4')"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-charcoal-ink via-charcoal-ink/80 to-transparent"></div>
+<!-- Hero Content Layer -->
+<div class="relative z-10 p-space-lg sm:p-space-xl lg:p-space-2xl max-w-2xl flex flex-col items-start gap-space-md">
+<div class="inline-flex items-center gap-2 bg-badge-pink-tint text-primary px-space-md py-1 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[16px]">stars</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest font-bold">Colección Noche &amp; Glamour 2025</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-surface-container-lowest tracking-tight uppercase leading-none">
+            NUEVA TEMPORADA <br/>
+<span class="text-primary-fixed-dim italic font-serif">NOCHE &amp; GLAMOUR</span>
+</h1>
+<p class="font-body-lg text-body-lg text-surface-container-highest max-w-xl font-light leading-relaxed">
+            Moda chic femenina, tendencias virales y calce perfecto diseñados para impactar. Envíos directos desde nuestro exclusivo Showroom en Córdoba Capital a todo el país.
+          </p>
+<!-- Banking & Installments Promotion Highlight Box -->
+<div class="w-full bg-surface-container-lowest/10 backdrop-blur-md p-space-md rounded-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="w-9 h-9 rounded-full bg-promo-emerald/20 text-promo-emerald flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">percent</span>
+</span>
+<div>
+<p class="font-label-lg text-label-lg uppercase tracking-wide text-surface-container-lowest">30% OFF POR TRANSFERENCIA</p>
+<p class="font-body-sm text-body-sm text-surface-container-high">O disfrutá de 3 y 6 Cuotas sin interés con todas las tarjetas</p>
+</div>
+</div>
+<span class="bg-promo-emerald text-surface-container-lowest font-label-sm text-label-sm px-3 py-1 rounded-full uppercase self-start sm:self-auto font-bold">Ahorro Inmediato</span>
+</div>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="bg-primary text-on-primary hover:bg-primary-container transition-colors px-8 py-3.5 rounded-full font-label-lg text-label-lg uppercase tracking-wider shadow-md hover:shadow-lg flex items-center gap-space-xs" data-path="prendas-de-noche" href="#">
+<span>EXPLORAR COLECCIÓN</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="bg-surface-container-lowest/15 hover:bg-surface-container-lowest hover:text-charcoal-ink text-surface-container-lowest transition-all px-8 py-3.5 rounded-full font-label-lg text-label-lg uppercase tracking-wider backdrop-blur-sm" data-path="vestidos" href="#">
+              VER PRENDAS DE NOCHE
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Category Pills / Circles Visual Navigation -->
+<section class="w-full px-margin-mobile lg:px-margin pb-space-2xl">
+<div class="max-w-[1360px] mx-auto flex flex-col gap-space-lg">
+<div class="flex items-end justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">EXPLORÁ POR ESTILO</span>
+<h2 class="font-headline-lg text-headline-lg text-charcoal-ink uppercase tracking-tight">CATEGORÍAS DESTACADAS</h2>
+</div>
+<a class="hidden sm:flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-charcoal-muted hover:text-primary transition-colors" data-path="productos" href="#">
+<span>Ver catálogo completo</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-space-md">
+<!-- Category Card 1 -->
+<a class="group flex flex-col items-center text-center p-space-sm bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all hover:-translate-y-1" data-path="tops-y-remes" href="#">
+<div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Editorial look of a cropped asymmetrical party top in ribbed black fabric worn by a female model on a pure off-white studio background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD81-Yx9BSB02_yhV7KS7rT8q8W8ntdY7PJ2XI7f7g2l8kV_nwM6d81MrW7-TUk1TrkRlC8caAwOLkkWY54-cscWywRnSY85XOp65GlVJUCBYsUv6vrrzdGOwdwFPvwfC_Cvg3o01E4fGksx9oTS27rEqHos7g2Ub3Qvp24hkFg-Qbz6cjcXzTegr5pCIK2lXkZUWO83ij_ZosV9m3h3AnN2YrJXirgdERbGnXj0r4"/>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-ink font-bold group-hover:text-primary transition-colors">Tops &amp; Remes</span>
+<span class="font-body-sm text-body-sm text-charcoal-muted mt-0.5">Bestsellers</span>
+</a>
+<!-- Category Card 2 -->
+<a class="group flex flex-col items-center text-center p-space-sm bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all hover:-translate-y-1" data-path="catsuits" href="#">
+<div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Fashion studio shot of a woman in a fitted black halter neck catsuit bodysuit, sleek silhouette, minimalist high-fashion lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUIjIRhCJwrvO_35bf7vu3wVRq3EoOAJexQcmiEjXi6TVL6k5PaKDCq-h1aYe6EPkbVazi9x7aSe89gX49YdE3iKDz7hUJJLwQt-ndObFFZ0TD_pT2cnXUYm1itNO7M7ylNiua0od4olTbDiy3UfUex70I4EgQv5hf8LS6Jo8p4uBgMeG2A-QvJGzW-maRIBG-w01nD3r6SdmZHLqv6UbWqCTFbNo5N6dyuf__Yqw"/>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-ink font-bold group-hover:text-primary transition-colors">Catsuits &amp; Bodys</span>
+<span class="font-body-sm text-body-sm text-charcoal-muted mt-0.5">Impacto</span>
+</a>
+<!-- Category Card 3 -->
+<a class="group flex flex-col items-center text-center p-space-sm bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all hover:-translate-y-1" data-path="prendas-de-noche" href="#">
+<div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Chic evening mini dress with glitter detailing and open-back cut, Argentine party fashion, glowing club vibe studio photoshoot." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAzw1zCff3zaUaAH_tzAMOKHJHwjTrqQoEBiMp-LrZRd5yLYso09cHJZtOycVqx4eDxQmB2UCYWY6foq8gBBOkxhOt-L-1_9hL5aDzchdrpLMXoa2LMlu1FZ1gH_nf_pj9TuDkyEfIhqgMhAK80P5zRcnkkmRddTs2RHvKlq_z-PREcqVMF8FMxPTWeeA75URNk0nPB7YOuNjLUxV64jRgQPm0b-M8yHdAH1is80s"/>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-ink font-bold group-hover:text-primary transition-colors">Prendas de Noche</span>
+<span class="font-body-sm text-body-sm text-charcoal-muted mt-0.5">Fiesta &amp; Brillo</span>
+</a>
+<!-- Category Card 4 -->
+<a class="group flex flex-col items-center text-center p-space-sm bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all hover:-translate-y-1" data-path="pantalones" href="#">
+<div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Urban denim look of relaxed light-wash wide leg distressed jeans paired with high heels, crisp editorial background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKjJPt4qtTYQN8GyCnRxjY8klcjdJI3jlsNApKSgLxaFox5AzSlGe-UXwEcxE5jiVRRl-sP2uRfGWP7RSMFnXIZlNxvilYbMJceuVgkLZqwbUfxVSm8ZM5PBtIJI30wyJA5CB_BuLelTJkNL8TmlAUfj2PLj4SN5rpHaOtuXOtJHXFi9bnwFJFX9cItfrwyC6cRFivpPbVDG-Gt3YHYAWYWXywkf_n1RFy8_Ij0lo"/>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-ink font-bold group-hover:text-primary transition-colors">Jeans &amp; Wide Leg</span>
+<span class="font-body-sm text-body-sm text-charcoal-muted mt-0.5">Calce Rígido</span>
+</a>
+<!-- Category Card 5 -->
+<a class="group flex flex-col items-center text-center p-space-sm bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all hover:-translate-y-1" data-path="calzados" href="#">
+<div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Editorial footwear product photography showing chunky dark leather platform boots and sleek stylish heels against clean ivory pedestals." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUJCJyL9QYb-eJELRwP9EyHJt6ifDQQpZ55HXI_mKJFD1jz1w8Gh1WsB0SqrTEWGPUFoeZdOi5sKZLSH7QZsIKL6Hm8kQx8hRdVXBMXjNy0joXo1dZxGrNNKOn8IE6a88YTTZ3hDxs-9IAHsH5WUEzlDPwKxn3_UmEjI25m3eJU-KrD995TSi9ZLTFfhMlgl7Wf43-h_Hy69C4dkjUgb7F7c_h4-rtgjtmxg1xIu0"/>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-ink font-bold group-hover:text-primary transition-colors">Calzados Glamm</span>
+<span class="font-body-sm text-body-sm text-charcoal-muted mt-0.5">Botas &amp; Shoes</span>
+</a>
+<!-- Category Card 6 -->
+<a class="group flex flex-col items-center text-center p-space-sm bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all hover:-translate-y-1" data-path="conjuntos-sets" href="#">
+<div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Coordinated two-piece matching set with crop top and mini skirt in blush pink fabric, studio editorial fashion shot." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJS6AJh8NsTjzg9eAGp29oqiLKaMAMmaInMDPv4SqKkrRpGSD_k-gIOQsTFfQ8UBzGGJiPvq7BYm-7898M8GByCIaT6t-9wRE_tm6R6lJ4je7GOxW20DfijPnvxeisg_FuOLhPDMrEPsivzk6Zh8fYEkVhcXmuQTm9NgRtUQgFhZEyowY_d5M46fS5dWxxm-vPmc2FLIKRfkj3xHRvW3QcuyASSirS71PyzkzQpVk"/>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-ink font-bold group-hover:text-primary transition-colors">Conjuntos / Sets</span>
+<span class="font-body-sm text-body-sm text-charcoal-muted mt-0.5">Coord Looks</span>
+</a>
+<!-- Category Card 7 -->
+<a class="group flex flex-col items-center text-center p-space-sm bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all hover:-translate-y-1" data-path="abrigos" href="#">
+<div class="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden mb-space-sm bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Woman modeling a chic oversized black faux leather biker jacket with silver hardware, high contrast mood lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxNgxYBKXeHkkv6coMkEUTCEsktHCxNTPkFR3Z9wlj2UhXfkfnU_w5M0jyWBhUnTriMXWYWp4eJo0BK9H51Yb8ZcRjLzwu0rrNXUBLmF8g5rPLYcre7QjeMSDeA73zS_T7_3RMOuUHWTGwsoQOvD8umIsC4qorcVNjKEGUrawGQ91xlQ4MOBOmGcnf25oRDfWmLXwU2b1ao7eiPLQLwvX9VN2LZr4F8JW2Xnk3V1Q"/>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-ink font-bold group-hover:text-primary transition-colors">Abrigos Glamm</span>
+<span class="font-body-sm text-body-sm text-charcoal-muted mt-0.5">Cuero &amp; Puffers</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Editorial Tri-Banner Campaign Showcase -->
+<section class="w-full px-margin-mobile lg:px-margin pb-space-2xl">
+<div class="max-w-[1360px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Banner 1: Prendas de Noche -->
+<a class="group relative overflow-hidden rounded-xl bg-charcoal-ink h-[440px] flex flex-col justify-end p-space-lg shadow-md" data-path="prendas-de-noche" href="#">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Glamorous party fashion editorial: young model in an open-back black lace top and sleek trousers enjoying nightlife in an upscale Córdoba lounge." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBIqDrb2ojm0IueM8nA0OJmxIfRGTVTLEvpJxnWNIecjg2RvTnCIDtibuSIQHVZJGsv9Y4BoTCbYwzw2rE2zbGfCztIGc9C4YzPKztuaBDm_Zw0ZwTsE-JKQWBHHy3HyABwr8ylo0SklIT55UBWhvvPnW-9revGW5vSm_H84Zd5RqoCv9KBkKQc-C8IJ1b2CJosPHdQiVx1GLxgEKE3xpz_oIqu-stlOw9Ueh3fYEI')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-charcoal-ink via-charcoal-ink/50 to-transparent"></div>
+<div class="relative z-10 flex flex-col gap-space-xs text-surface-container-lowest">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-fixed-dim">Drop Especial</span>
+<h3 class="font-headline-md text-headline-md uppercase tracking-tight font-extrabold leading-tight">PRENDAS DE NOCHE</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest line-clamp-2">Outfits nocturnos audaces, espaldas descubiertas, encaje y transparencias virales.</p>
+<div class="mt-space-sm inline-flex items-center gap-1 font-label-sm text-label-sm uppercase tracking-wider font-bold text-surface-container-lowest group-hover:text-primary transition-colors">
+<span>Explorar noche</span>
+<span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Banner 2: Tops y Remes -->
+<a class="group relative overflow-hidden rounded-xl bg-charcoal-ink h-[440px] flex flex-col justify-end p-space-lg shadow-md" data-path="tops-y-remes" href="#">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Editorial look of modern young woman in a minimal white graphic streetwear top with delicate coquette ribbons and chic gold accessories." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCiHBR3Q3DK-6uAhZpriN1Rw2oULAcEvIYt6-B3jKPDLUGcmPdH3BvMOarSeIHJ72u0Vp-3JCBBDOE_XymoWWocCuFvnmakh7C23EC3XWAn3fHEarGpsRH0kgPZ1Rc_DtgWW2bFMsdhDYUMyubQbJJkR4FB6u9QQV0IUvtMPgzgcaSe2sdX4R_7y06VwY-BnBi1T6sVbmCeXtivcWiB0GoTrq56Yix16s8xbgyqEm0')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-charcoal-ink via-charcoal-ink/50 to-transparent"></div>
+<div class="relative z-10 flex flex-col gap-space-xs text-surface-container-lowest">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-tertiary-fixed">Street Chic</span>
+<h3 class="font-headline-md text-headline-md uppercase tracking-tight font-extrabold leading-tight">TOPS Y REMES</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest line-clamp-2">Los bestsellers de cada semana: corsets, tops lazo y remerones con actitud.</p>
+<div class="mt-space-sm inline-flex items-center gap-1 font-label-sm text-label-sm uppercase tracking-wider font-bold text-surface-container-lowest group-hover:text-primary transition-colors">
+<span>Ver coleccion tops</span>
+<span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</a>
+<!-- Banner 3: Pantalones & Wide Leg -->
+<a class="group relative overflow-hidden rounded-xl bg-charcoal-ink h-[440px] flex flex-col justify-end p-space-lg shadow-md" data-path="pantalones" href="#">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Full body shot of a fashion model walking in high-waisted distressed light denim wide leg jeans with frayed hems and platform footwear." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDvdDy2w7edcFz3we_Mh37Hqxr1jzftQeRgn6GBtK_s_YX6i51dbPIIbtin98nJDqYYxvhGn6Acaq8gEMBSm_zEILWwIHJ3H9ybXQ6C2WazgJdZy_Pmnu7zwTOYJEJ1abw43inlj40iEFOShqWxru-7_xzyRkZ8Uw1pr2DtwlcNb2EILNmrJetEHNKwql2OUrATBxqIvo9nkMpJTHKLt-G59x20MhRCiFTcgLyYYf4')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-charcoal-ink via-charcoal-ink/50 to-transparent"></div>
+<div class="relative z-10 flex flex-col gap-space-xs text-surface-container-lowest">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-promo-emerald">Denim Viral</span>
+<h3 class="font-headline-md text-headline-md uppercase tracking-tight font-extrabold leading-tight">PANTALONES &amp; WIDE LEG</h3>
+<p class="font-body-sm text-body-sm text-surface-container-highest line-clamp-2">Denim rígido deflecado, tiro medio y bajo con el calce moldeador más buscado.</p>
+<div class="mt-space-sm inline-flex items-center gap-1 font-label-sm text-label-sm uppercase tracking-wider font-bold text-surface-container-lowest group-hover:text-primary transition-colors">
+<span>Elegir tu talle</span>
+<span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</a>
+</div>
+</section>
+<!-- Bestsellers & Featured Products Grid -->
+<section class="w-full px-margin-mobile lg:px-margin pb-space-2xl">
+<div class="max-w-[1360px] mx-auto flex flex-col gap-space-lg">
+<!-- Section Header with Filters -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">LO MÁS ELEGIDO</span>
+<h2 class="font-headline-lg text-headline-lg text-charcoal-ink uppercase tracking-tight">BESTSELLERS DE LA SEMANA</h2>
+<p class="font-body-md text-body-md text-charcoal-muted">Prendas virales con 30% OFF por transferencia y despacho express inmediato.</p>
+</div>
+<div class="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
+<button class="px-space-md py-1.5 rounded-full bg-charcoal-ink text-surface-container-lowest font-label-sm text-label-sm uppercase tracking-wider whitespace-nowrap">Todos</button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container text-charcoal-ink hover:bg-surface-container-highest font-label-sm text-label-sm uppercase tracking-wider whitespace-nowrap transition-colors">Noche</button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container text-charcoal-ink hover:bg-surface-container-highest font-label-sm text-label-sm uppercase tracking-wider whitespace-nowrap transition-colors">Denim</button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container text-charcoal-ink hover:bg-surface-container-highest font-label-sm text-label-sm uppercase tracking-wider whitespace-nowrap transition-colors">Sets</button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container text-charcoal-ink hover:bg-surface-container-highest font-label-sm text-label-sm uppercase tracking-wider whitespace-nowrap transition-colors">Abrigos</button>
+</div>
+</div>
+<!-- 8-Card Responsive Product Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Product 1: Top Lazo -->
+<article class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Fashion catalog shot of Top Lazo, an elegant cropped top with back tie details in black fabric worn by a female model on a light studio set." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDwVS6vworfbgiV2D7m1RvYx8IHJyp6JX1HOiGnhaBUB4Y3IWOx2zr1tReKpEFIBaNB4cly3s427IDgLcdhdnizleowOCeAPa_qacUOpm0xdLgf_IyNgc0SqtPP2lDXDGrUbZDjQxKqIWxXGLrMSgMrtHDoD-sdSFLhMmkJ-8U9vT6MlAx07eLPBQk8H_7mz5bujf1Ej_jYibittUpKbte9TVHBrGrt1zvOvVYIjo"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-badge-pink-tint text-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase font-bold tracking-wider shadow-sm">TRENDING</span>
+<span class="bg-promo-emerald text-surface-container-lowest font-label-sm text-label-sm px-2.5 py-0.5 rounded-full uppercase font-bold tracking-wider">30% OFF TRANSF.</span>
+</div>
+<button aria-label="Agregar a favoritos" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm text-charcoal-ink hover:text-primary hover:bg-surface-container-lowest flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-muted">Tops &amp; Remes</span>
+<h3 class="font-headline-md text-headline-md uppercase text-charcoal-ink group-hover:text-primary transition-colors">Top Lazo</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted">Detalle de lazo posterior regulable</p>
+<!-- Price Box -->
+<div class="mt-space-xs bg-surface-warm p-space-sm rounded-lg flex flex-col gap-1">
+<div class="flex items-baseline justify-between">
+<span class="font-body-sm text-body-sm text-charcoal-muted line-through">$20.020,00</span>
+<span class="font-price-transfer text-price-transfer text-promo-emerald font-extrabold">$14.014,00</span>
+</div>
+<div class="flex items-center gap-1 text-charcoal-muted font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">credit_card</span>
+<span>3 cuotas de <strong>$6.673,33</strong></span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary py-3 rounded-full font-label-sm text-label-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>COMPRAR AHORA</span>
+</button>
+</div>
+</article>
+<!-- Product 2: Catsuit Mala Negro -->
+<article class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial model wearing Catsuit Mala Negro, full-length bodycon catsuit in rich stretch fabric with flattering waist seams, moody clean lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcW7ZtvsCih9aOHyT2HBqYls6P4jrfMp7BOZBCcZM2wyZ1wztJ8rpkSM0mgW3RU0vrbAOVPHrL-EMdaVKl0TQyxKTmkRZvExcB6oyHDkAVN_b6Qq-XSe__DTgPSi4CRzmZRnwcAjjKWcGIHu9pCD_otdvS9g-IvkVoZk3DpnPjrUHTBIAqEFpI3kHkiBXAsuf04NC1Uw8YNct0tmmFqi0nk3HLHWZzpVceordJHWo"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-charcoal-ink text-surface-container-lowest font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase font-bold tracking-wider">TOP NOCHE</span>
+<span class="bg-promo-emerald text-surface-container-lowest font-label-sm text-label-sm px-2.5 py-0.5 rounded-full uppercase font-bold tracking-wider">30% OFF TRANSF.</span>
+</div>
+<button aria-label="Agregar a favoritos" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm text-charcoal-ink hover:text-primary hover:bg-surface-container-lowest flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-muted">Catsuits</span>
+<h3 class="font-headline-md text-headline-md uppercase text-charcoal-ink group-hover:text-primary transition-colors">Catsuit Mala Negro</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted">Talles 2, 3 y 4 | Calce moldeador</p>
+<!-- Price Box -->
+<div class="mt-space-xs bg-surface-warm p-space-sm rounded-lg flex flex-col gap-1">
+<div class="flex items-baseline justify-between">
+<span class="font-body-sm text-body-sm text-charcoal-muted line-through">$42.900,00</span>
+<span class="font-price-transfer text-price-transfer text-promo-emerald font-extrabold">$30.030,00</span>
+</div>
+<div class="flex items-center gap-1 text-charcoal-muted font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">credit_card</span>
+<span>3 cuotas de <strong>$14.300,00</strong></span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary py-3 rounded-full font-label-sm text-label-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>COMPRAR AHORA</span>
+</button>
+</div>
+</article>
+<!-- Product 3: Conjunto Lola -->
+<article class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial look of Conjunto Lola two-piece set, featuring a cropped top and tailored mini skirt in premium fabric, modeled in a minimalist studio." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFR6e8PvTd5gUwrR4IG_IF-3B8rGTOXdlejYfxso6WwK--5fobL1VB0ogtKyn6e164fqdDm5LLT1NSucmgAY0wXYC29M5AQY_RCXmuFx-2wd_kTp9sgPQNgyjCWsogNaCSrGSENo1aeXyWI83U6qTwQ3lZIxubYGAkcczrVjPeYU7GbQhL74vS5N4-nXCjjocpSF42jMoN0ZlNobgL3WyxdAJTn9CbwHJ0Uq1hPa8"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase font-bold tracking-wider">19% SALE</span>
+<span class="bg-promo-emerald text-surface-container-lowest font-label-sm text-label-sm px-2.5 py-0.5 rounded-full uppercase font-bold tracking-wider">30% OFF TRANSF.</span>
+</div>
+<button aria-label="Agregar a favoritos" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm text-charcoal-ink hover:text-primary hover:bg-surface-container-lowest flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-muted">Conjuntos &amp; Sets</span>
+<h3 class="font-headline-md text-headline-md uppercase text-charcoal-ink group-hover:text-primary transition-colors">Conjunto Lola</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted">Talles 1 y 3 | Set 2 piezas versátil</p>
+<!-- Price Box -->
+<div class="mt-space-xs bg-surface-warm p-space-sm rounded-lg flex flex-col gap-1">
+<div class="flex items-baseline justify-between">
+<div class="flex items-center gap-1.5">
+<span class="font-body-sm text-body-sm text-charcoal-muted line-through">$68.640,00</span>
+<span class="font-label-sm text-label-sm text-charcoal-ink font-bold">$55.770,00</span>
+</div>
+<span class="font-price-transfer text-price-transfer text-promo-emerald font-extrabold">$39.039,00</span>
+</div>
+<div class="flex items-center gap-1 text-charcoal-muted font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">credit_card</span>
+<span>3 cuotas de <strong>$18.590,00</strong></span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary py-3 rounded-full font-label-sm text-label-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>COMPRAR AHORA</span>
+</button>
+</div>
+</article>
+<!-- Product 4: Vestido Largo Havanna -->
+<article class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Model wearing Vestido Largo Havanna, an elegant long maxi chocolate dress with side slit and delicate straps, golden hour sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTkwjmbe7s_y_O6-uWHkMVwpYa8H5qmX4BijZZ0wqCnR7bebXypISvKXqkOR4bWAPFzhSFO7jJkDHfZEoXpQLFk2enkaPdZCdOe5wp9YzgFP8vul3neUA-RCJCrQjk7FMFoMl-O3ugrfvBk-8lwfmy6eVuW0ihljN-uLmq7xOSey8P4OXrKjTyn3bVxB4pm1SPLBE02ChfQzHBjhcrTdsW6UCdVZ4vPJdrC-Kl-4g"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-badge-pink-tint text-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase font-bold tracking-wider">CHOCO &amp; NEGRO</span>
+<span class="bg-promo-emerald text-surface-container-lowest font-label-sm text-label-sm px-2.5 py-0.5 rounded-full uppercase font-bold tracking-wider">30% OFF TRANSF.</span>
+</div>
+<button aria-label="Agregar a favoritos" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm text-charcoal-ink hover:text-primary hover:bg-surface-container-lowest flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-muted">Vestidos</span>
+<h3 class="font-headline-md text-headline-md uppercase text-charcoal-ink group-hover:text-primary transition-colors">Vestido Largo Havanna</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted">Colores: Chocolate y Negro</p>
+<!-- Price Box -->
+<div class="mt-space-xs bg-surface-warm p-space-sm rounded-lg flex flex-col gap-1">
+<div class="flex items-baseline justify-between">
+<span class="font-body-sm text-body-sm text-charcoal-muted line-through">$35.750,00</span>
+<span class="font-price-transfer text-price-transfer text-promo-emerald font-extrabold">$25.025,00</span>
+</div>
+<div class="flex items-center gap-1 text-charcoal-muted font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">credit_card</span>
+<span>3 cuotas de <strong>$11.916,67</strong></span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary py-3 rounded-full font-label-sm text-label-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>COMPRAR AHORA</span>
+</button>
+</div>
+</article>
+<!-- Product 5: Short Engomado Regina -->
+<article class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Fashion catalog photo of Short Engomado Regina, shiny coated black high-rise shorts worn with leather boots, sleek minimal background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2_72BL97_VXzwHRNfJPiNB2A63oU1z3w1Z815mklhSLlkfBVH2pFHUm7TMLK0qVvAPN8rWljPKTmkSdSIPnZzK3UsJFWX1qVMz3YCagXoeK7Xi-wdbwMMydak0OyknQVLg2s-pyuPon3TMkeQrra_8s_QAiMsOxdxmtKNBz1s0MZ5oZsGqOAlXDxNjQ6l8XEJVcFLvhpenxk52IYZ48beHjS0W3tFVO5BNJu87Hg"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-charcoal-ink text-surface-container-lowest font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase font-bold tracking-wider">TALLES 2 AL 5</span>
+<span class="bg-promo-emerald text-surface-container-lowest font-label-sm text-label-sm px-2.5 py-0.5 rounded-full uppercase font-bold tracking-wider">30% OFF TRANSF.</span>
+</div>
+<button aria-label="Agregar a favoritos" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm text-charcoal-ink hover:text-primary hover:bg-surface-container-lowest flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-muted">Shorts &amp; Minis</span>
+<h3 class="font-headline-md text-headline-md uppercase text-charcoal-ink group-hover:text-primary transition-colors">Short Engomado Regina</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted">Engomado premium elastizado</p>
+<!-- Price Box -->
+<div class="mt-space-xs bg-surface-warm p-space-sm rounded-lg flex flex-col gap-1">
+<div class="flex items-baseline justify-between">
+<span class="font-body-sm text-body-sm text-charcoal-muted line-through">$38.610,00</span>
+<span class="font-price-transfer text-price-transfer text-promo-emerald font-extrabold">$27.027,00</span>
+</div>
+<div class="flex items-center gap-1 text-charcoal-muted font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">credit_card</span>
+<span>3 cuotas de <strong>$12.870,00</strong></span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary py-3 rounded-full font-label-sm text-label-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>COMPRAR AHORA</span>
+</button>
+</div>
+</article>
+<!-- Product 6: Jeans Promo Stone -->
+<article class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial denim shot of Jeans Promo Stone, classic straight fit stone-washed blue jeans modeled with a white crop top and neutral background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9uQRqv9Q8DDISIC8hJdcVlD0azuIPX5K4T4lcDxZRhixpGg-PCQRrzwvsmCutVVCtcckW6qOOhNkb63hpeflAWAGE3zBULWd4pT1OKw-_d3qoJmmIkEG1ALH8AtskGMpi9RARViH1Mo79nMUPxvK9L0B-kweZ45NfUo0uapLafcIFuutmF9n-6_sY3GnyhD30rAcgxiTuY9bjFfCEbnCji72tK9Z8Bwgiy5QSJlk"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-badge-pink-tint text-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase font-bold tracking-wider">TALLES 36 AL 46</span>
+<span class="bg-promo-emerald text-surface-container-lowest font-label-sm text-label-sm px-2.5 py-0.5 rounded-full uppercase font-bold tracking-wider">30% OFF TRANSF.</span>
+</div>
+<button aria-label="Agregar a favoritos" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm text-charcoal-ink hover:text-primary hover:bg-surface-container-lowest flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-muted">Pantalones</span>
+<h3 class="font-headline-md text-headline-md uppercase text-charcoal-ink group-hover:text-primary transition-colors">Jeans Promo Stone</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted">Lavado stone clásico atemporal</p>
+<!-- Price Box -->
+<div class="mt-space-xs bg-surface-warm p-space-sm rounded-lg flex flex-col gap-1">
+<div class="flex items-baseline justify-between">
+<span class="font-body-sm text-body-sm text-charcoal-muted line-through">$26.455,00</span>
+<span class="font-price-transfer text-price-transfer text-promo-emerald font-extrabold">$18.518,50</span>
+</div>
+<div class="flex items-center gap-1 text-charcoal-muted font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">credit_card</span>
+<span>3 cuotas de <strong>$8.818,33</strong></span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary py-3 rounded-full font-label-sm text-label-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>COMPRAR AHORA</span>
+</button>
+</div>
+</article>
+<!-- Product 7: Campera Cuero Lissy -->
+<article class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial high-fashion model wearing Campera Cuero Lissy, an oversized black faux leather biker jacket with metallic zippers and wide lapels." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDmlQrTDZCadLYJggHF5IqYt4DUsEgSCrlVRf1YsODVWAJKW-2nnXZ3bYGw8rycSKu9iWB95VlT6e1TW0yHe333l8MAUGDrNW1nBlZ6DpvOuIb2bqZdIS7lVQo4cYJzQsDxNPixnqyFKXWUcLI67C-ru_h0Cb5PEpukYt7MyKgdCfD_xi9tUF3RE483E-iAqXOl_VFa0SisbmrXNSW3He_RcLSswnS-sivT2yIqlY"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-charcoal-ink text-surface-container-lowest font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase font-bold tracking-wider">EXCLUSIVO</span>
+<span class="bg-promo-emerald text-surface-container-lowest font-label-sm text-label-sm px-2.5 py-0.5 rounded-full uppercase font-bold tracking-wider">30% OFF TRANSF.</span>
+</div>
+<button aria-label="Agregar a favoritos" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm text-charcoal-ink hover:text-primary hover:bg-surface-container-lowest flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-muted">Abrigos</span>
+<h3 class="font-headline-md text-headline-md uppercase text-charcoal-ink group-hover:text-primary transition-colors">Campera Cuero Lissy</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted">Talle M/L | Forrería completa</p>
+<!-- Price Box -->
+<div class="mt-space-xs bg-surface-warm p-space-sm rounded-lg flex flex-col gap-1">
+<div class="flex items-baseline justify-between">
+<span class="font-body-sm text-body-sm text-charcoal-muted line-through">$111.540,00</span>
+<span class="font-price-transfer text-price-transfer text-promo-emerald font-extrabold">$78.078,00</span>
+</div>
+<div class="flex items-center gap-1 text-charcoal-muted font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">credit_card</span>
+<span>3 cuotas de <strong>$37.180,00</strong></span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary py-3 rounded-full font-label-sm text-label-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>COMPRAR AHORA</span>
+</button>
+</div>
+</article>
+<!-- Product 8: Wide Leg Deflecado Celeste -->
+<article class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[3/4] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial look of Wide Leg Deflecado Celeste, sky blue rigid denim jeans with high waist fit and frayed hem styling in studio lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0GeKzAhrzWIIS85UVproBtQnQ3_V9mE2OSHKw-C-kGbq7c_JY-u7ihgi7t5FfNMqlPE_OaMTCiemRXwwbGqT-vKSYs8vjncJSaKBvJnPBNUyUQFawYr7RrRwyMB1nJ18MGXgEWFr2jnCqrwC8DWazmWcrv1PzsUa39xpmB7EttT9Ggvu3mPm5j5iOTHqkJpEGGKsX2Ecr2SDHA2X88zBfC6ndm9IzO3BntQj00jw"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-badge-pink-tint text-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase font-bold tracking-wider">FAVORITO</span>
+<span class="bg-promo-emerald text-surface-container-lowest font-label-sm text-label-sm px-2.5 py-0.5 rounded-full uppercase font-bold tracking-wider">30% OFF TRANSF.</span>
+</div>
+<button aria-label="Agregar a favoritos" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm text-charcoal-ink hover:text-primary hover:bg-surface-container-lowest flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-muted">Pantalones</span>
+<h3 class="font-headline-md text-headline-md uppercase text-charcoal-ink group-hover:text-primary transition-colors">Wide Leg Deflecado Celeste</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted">Talles 36 al 40 | Rígido deflecado</p>
+<!-- Price Box -->
+<div class="mt-space-xs bg-surface-warm p-space-sm rounded-lg flex flex-col gap-1">
+<div class="flex items-baseline justify-between">
+<span class="font-body-sm text-body-sm text-charcoal-muted line-through">$57.200,00</span>
+<span class="font-price-transfer text-price-transfer text-promo-emerald font-extrabold">$40.040,00</span>
+</div>
+<div class="flex items-center gap-1 text-charcoal-muted font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[14px]">credit_card</span>
+<span>3 cuotas de <strong>$19.066,67</strong></span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary py-3 rounded-full font-label-sm text-label-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>COMPRAR AHORA</span>
+</button>
+</div>
+</article>
+</div>
+<!-- Load More / View All CTA -->
+<div class="flex justify-center mt-space-md">
+<a class="px-10 py-3.5 rounded-full bg-surface-container-lowest text-charcoal-ink hover:bg-charcoal-ink hover:text-surface-container-lowest font-label-lg text-label-lg uppercase tracking-wider transition-all shadow-sm hover:shadow-md flex items-center gap-space-xs" data-path="productos" href="#">
+<span>VER TODOS LOS PRODUCTOS (+240 PRENDAS)</span>
+<span class="material-symbols-outlined text-[20px]">expand_more</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Interactive Brand & Showroom Experience Banner -->
+<section class="w-full px-margin-mobile lg:px-margin pb-space-2xl">
+<div class="max-w-[1360px] mx-auto bg-surface-container-lowest rounded-2xl overflow-hidden shadow-md">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-stretch">
+<!-- Showroom Editorial Image -->
+<div class="lg:col-span-5 relative min-h-[360px] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Modern high-fashion showroom boutique interior in Córdoba Capital with minimalist golden clothing racks, ambient warm lighting, full-length mirror and chic fashion dresses." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDArNVL6_9ac0dUToiJ3P5dkaX1WBuBcFKjp1si-F7Z_wZGdjcB1-0qutrH838aJenfnvX8hLgQBxYH__zvgs0EfWdNrCtpERUK-_U5BlgC1qItaa7AIkPCnFfq1wyCxRhkdzq-EI3KYV8IEDcrnZl5HGwQuxzHg_vP7ucQgzZPujE6loeDoEzEiKxo-r9Dx1St48kurVP5ScfMdoz3xV8BBKkFxMFC8tK3_rM4Pp4"/>
+<div class="absolute top-4 left-4 bg-charcoal-ink/80 backdrop-blur-sm text-surface-container-lowest px-3 py-1.5 rounded-full font-label-sm text-label-sm uppercase tracking-wider flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-promo-emerald animate-pulse"></span>
+<span>Showroom Abierto Hoy</span>
+</div>
+</div>
+<!-- Showroom Information & Personalized Consultation -->
+<div class="lg:col-span-7 p-space-lg sm:p-space-xl flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">EXPERIENCIA PRESENCIAL &amp; DIGITAL</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-charcoal-ink tracking-tight">SHOWROOM GLAMM EN CÓRDOBA CAPITAL</h2>
+<p class="font-body-md text-body-md text-charcoal-muted leading-relaxed">
+              ¿Tenés dudas con el talle, el calce o querés ver cómo queda puesto? Te atendemos personalmente en nuestro showroom físico o te enviamos videos reales y medidas exactas al instante vía WhatsApp.
+            </p>
+</div>
+<!-- Feature Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm">
+<div class="bg-surface-warm p-space-sm rounded-lg flex flex-col gap-1">
+<span class="material-symbols-outlined text-[24px] text-primary">checkroom</span>
+<span class="font-label-sm text-label-sm uppercase font-bold text-charcoal-ink">Probador Exclusivo</span>
+<span class="font-body-sm text-body-sm text-charcoal-muted">Probate todo en Córdoba sin turno previo.</span>
+</div>
+<div class="bg-surface-warm p-space-sm rounded-lg flex flex-col gap-1">
+<span class="material-symbols-outlined text-[24px] text-primary">videocam</span>
+<span class="font-label-sm text-label-sm uppercase font-bold text-charcoal-ink">Videos en Vivo</span>
+<span class="font-body-sm text-body-sm text-charcoal-muted">Te mostramos la caída de la tela antes de pagar.</span>
+</div>
+<div class="bg-surface-warm p-space-sm rounded-lg flex flex-col gap-1">
+<span class="material-symbols-outlined text-[24px] text-primary">local_shipping</span>
+<span class="font-label-sm text-label-sm uppercase font-bold text-charcoal-ink">Retiro Inmediato</span>
+<span class="font-body-sm text-body-sm text-charcoal-muted">Comprá online y retirá gratis en el día.</span>
+</div>
+</div>
+<!-- Direct WhatsApp Button -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="bg-whatsapp-green hover:opacity-90 text-surface-container-lowest font-label-lg text-label-lg uppercase tracking-wider px-8 py-3.5 rounded-full transition-all flex items-center gap-space-xs shadow-md" href="https://wa.me/543513233826" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>CHATEAR CON ASESORA POR WHATSAPP</span>
+</a>
+<span class="font-body-sm text-body-sm text-charcoal-muted">Respuesta promedio: &lt; 5 minutos</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Community & Instagram Lookbook Grid -->
+<section class="w-full px-margin-mobile lg:px-margin pb-space-2xl">
+<div class="max-w-[1360px] mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">COMUNIDAD @TIENDAGLAMM_</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-charcoal-ink tracking-tight">LOOKS DE NUESTRAS GLAMMERS</h2>
+</div>
+<a class="font-label-sm text-label-sm uppercase tracking-wider text-charcoal-ink hover:text-primary transition-colors flex items-center gap-1 font-bold" href="https://instagram.com/TIENDAGLAMM_" rel="noopener noreferrer" target="_blank">
+<span>SEGUINOS EN INSTAGRAM</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+<!-- Instagram Visual Bento Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-space-sm">
+<div class="group relative aspect-square overflow-hidden rounded-xl bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Trendy mirror selfie style photo of a young woman wearing a black corset top and relaxed jeans before a night out in Córdoba." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7N3Ew_DJEZCIJnQqXbLp_YYyJLc4GQluY6WaAo1ikkVnGZ4a--OmqIqXDNBqjITnSbzsgwnGZRcnnbQLHFV3lSp_kzEHQhiP1HmYD3E1xmI91mNpTXC7TuAb6OcEPgdagoeD2GIBMsmAr25XtN8wvOgjm0NwB3_W_PLPIY9awE2To14Htyy4fCgwhIV3KeghXq1Rorm79xVeY9wqEf2GkXHddyVJQUqWZ6udsas0"/>
+<div class="absolute inset-0 bg-charcoal-ink/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface-container-lowest">
+<span class="material-symbols-outlined text-[24px]">favorite</span>
+</div>
+</div>
+<div class="group relative aspect-square overflow-hidden rounded-xl bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Street style snapshot of woman wearing oversized blazer, mini skirt, and chunky black boots walking in an urban setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQFFKQN4FUOw_mPhSvGWoQqoW-hBKTHnGolJCnVdF1Md9uvmesOgdc0jxfRt_YsJoRhMSl8tzn6olyxV8tfQmd5g_R4PhkwEcmZNDVCH1tqrrX_Q8wwiMTd9IMXzF6VHeuikzHXKYNd0kqdjmfjESJphtbaxorrnxWw-8LZUCYcMyVRcpSO7f0CdT0_mBVeOCaJRjbK-kscPpJKDOZiWjeq14CAqolrRVdJ-toR-A"/>
+<div class="absolute inset-0 bg-charcoal-ink/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface-container-lowest">
+<span class="material-symbols-outlined text-[24px]">favorite</span>
+</div>
+</div>
+<div class="group relative aspect-square overflow-hidden rounded-xl bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Editorial close up portrait showcasing shiny drop earrings paired with a chocolate satin evening slip dress." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4y0483-jCLDj63k6X-4RC1f7Nef0q5K4E6g1Je1ytqgZ6z43c_tEtOn6G8TeN2Vr7HEXaRVcs7MYTRihPvsYNGVXxODr7I7B0QIjwR1c_-h_tw3brLPo4YzbxsnGdmrd1hrq3z51kKp-fwhDwhW_uxLTRFpIG47S_M6P3JQelxU2SDj6D4aVsGuMWxco8n_ZgduJ-tlIRX9IF9z33bMp0UzRu23AZLz63p-fXqVQ"/>
+<div class="absolute inset-0 bg-charcoal-ink/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface-container-lowest">
+<span class="material-symbols-outlined text-[24px]">favorite</span>
+</div>
+</div>
+<div class="group relative aspect-square overflow-hidden rounded-xl bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Full outfit check in showroom mirror wearing fitted strapless catsuit and leather jacket with high heels." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEO1d6xeqUvDa5NeG7DLx_gdKodtPPO7jlCkqNyayEw5Bto4FjCsm9sB51E3mi7zsbYixHvwdOdYwPpYOTS7RJc9hx2anaZYtbIu7nz9xdMVvyASGTkAhIZXcSl-LkTpL_GBYfrLzVPp-7EJO6rZJKY6HVOrXIDPg5IqSFm4D6KVMy_iH_EOg9iPbriCwrKHB8hyfOnXjrPDKeiEKEWvJzUqTAD57H_GWHdFYAp2A"/>
+<div class="absolute inset-0 bg-charcoal-ink/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface-container-lowest">
+<span class="material-symbols-outlined text-[24px]">favorite</span>
+</div>
+</div>
+<div class="group relative aspect-square overflow-hidden rounded-xl bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Golden hour rooftop party picture of friends styled in coordinating Tienda Glamm night sets and denim." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChqaSBuEyrwuMmeArxf6YvcG68J8I2Ri7hezcnnRMRFIPTLQ87pUY5i87uZ9gJFZg3Ljw70CiPUIeIydq00xRjad0jsaoxiigsEV4gxK6RBF-oH2r3Y-KPlGUzyi2SXzNHAbwsfpxC9Z92YY9tQdr2h2G4AHWc-XBH32_RgohDfmikG-j3QeXVS4vkHjprQzEe1aOtA_otNl9na_qwcOAUtGaZJGVTcCkYViU3rN8"/>
+<div class="absolute inset-0 bg-charcoal-ink/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface-container-lowest">
+<span class="material-symbols-outlined text-[24px]">favorite</span>
+</div>
+</div>
+<div class="group relative aspect-square overflow-hidden rounded-xl bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Flat lay product aesthetic photo of unboxed Glamm parcels, pink wrapping paper, stickers, and new denim wide legs." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmhZVuxzN4vGvrmmrAsCPCwPhocWI_hBlbYj8lWLUepBPsR1LZ-y8faM_UY6QINa8QpMsSebYVg7sZy2NLUwOaRHTMrMGN-GkCejVlRUfLoLVj-xgQ2U5mvSPC-240es85_yT6sbEcmCabhour5OBU3TMrCFW2bYHfCO0YwVXcZSLteBT29sY6wDyAPt6pFYyTGeCY0mwqaqoHpahqj1u_K4w5BRxXnxulm3NxIME"/>
+<div class="absolute inset-0 bg-charcoal-ink/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-surface-container-lowest">
+<span class="material-symbols-outlined text-[24px]">favorite</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Clear Customer Policies & Shopping Confidence Cards -->
+<section class="w-full px-margin-mobile lg:px-margin pb-space-2xl">
+<div class="max-w-[1360px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Policy Card 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-full bg-badge-pink-tint text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">local_shipping</span>
+</div>
+<h3 class="font-label-lg text-label-lg uppercase tracking-wide text-charcoal-ink">ENVÍOS A TODO EL PAÍS</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted leading-relaxed">
+          Enviamos por Correo Argentino y Andreani Express a todas las provincias. Envío bonificado 100% superando los $150.000.
+        </p>
+</div>
+<!-- Policy Card 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-full bg-badge-pink-tint text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">published_with_changes</span>
+</div>
+<h3 class="font-label-lg text-label-lg uppercase tracking-wide text-charcoal-ink">POLÍTICA DE CAMBIOS</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted leading-relaxed">
+          Tenés hasta 15 días desde tu compra para envíos al interior del país, o 7 días en la ciudad de Córdoba Capital.
+        </p>
+</div>
+<!-- Policy Card 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-full bg-badge-pink-tint text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">credit_card</span>
+</div>
+<h3 class="font-label-lg text-label-lg uppercase tracking-wide text-charcoal-ink">FORMAS DE PAGO</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted leading-relaxed">
+          3 y 6 Cuotas Sin Interés con todas las tarjetas vía Mercado Pago. O aprovechá el súper 30% OFF directo con transferencia bancaria.
+        </p>
+</div>
+<!-- Policy Card 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="w-10 h-10 rounded-full bg-badge-pink-tint text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">verified_user</span>
+</div>
+<h3 class="font-label-lg text-label-lg uppercase tracking-wide text-charcoal-ink">COMPRA 100% SEGURA</h3>
+<p class="font-body-sm text-body-sm text-charcoal-muted leading-relaxed">
+          Plataforma cifrada con soporte humano directo. Despachamos todos los pedidos en un plazo máximo de 24 horas hábiles.
+        </p>
+</div>
+</div>
+</section>
+<!-- Interactive Postal Code / Quick Shipping Calculation Bar -->
+<section class="w-full px-margin-mobile lg:px-margin pb-space-2xl">
+<div class="max-w-[1360px] mx-auto bg-surface-container-low p-space-lg rounded-xl flex flex-col md:flex-row items-center justify-between gap-space-md shadow-sm">
+<div class="flex items-center gap-space-md">
+<span class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">pin_drop</span>
+</span>
+<div>
+<h4 class="font-label-lg text-label-lg uppercase tracking-wider text-charcoal-ink">Calculá el costo y tiempo de tu envío</h4>
+<p class="font-body-sm text-body-sm text-charcoal-muted">Ingresá tu código postal para conocer opciones a domicilio o sucursal.</p>
+</div>
+</div>
+<div class="w-full md:w-auto flex flex-col sm:flex-row items-center gap-space-xs">
+<div class="relative w-full sm:w-64">
+<input class="w-full bg-surface-container-lowest text-charcoal-ink px-4 py-2.5 rounded-full font-body-sm text-body-sm placeholder:text-charcoal-muted focus:outline-none shadow-sm" placeholder="Ej: 5000 (Córdoba)" type="text"/>
+</div>
+<button class="w-full sm:w-auto bg-charcoal-ink hover:bg-primary text-surface-container-lowest font-label-sm text-label-sm uppercase tracking-wider px-6 py-2.5 rounded-full transition-colors whitespace-nowrap shadow-sm">
+          CALCULAR ENVÍO
+        </button>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface mt-space-2xl"><div class="max-w-[1360px] mx-auto px-margin-mobile lg:px-margin py-space-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Tienda Glamm Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WJw2anr0qcyAemIuS2l0UKK2JBJUYad3xlWfFDWRhX_YakTFlAfUcdvsIzrg2B8341GIWMJe4KT2RorrN-ZYUSnTu5dueuq2YRa8SDKu_RU5tnW48bx-mU1ipx9ym5RgeqBDGcw9sSlwmIB002k9OLfWvQs-tByMn7-jz2CBobMsCQtLHjSa8NdNkFEwaCTo6zFENa7Z_WWl7D4Uaf1-WVvE8Q_c8AAxzPKa-PQYI"/><span class="font-headline-md text-headline-md tracking-tight uppercase text-charcoal-ink">Tienda Glamm</span></div><p class="font-body-md text-body-md text-charcoal-muted leading-relaxed">Moda chic femenina directa desde Córdoba Capital. Diseños en tendencia pensados para destacar con estilo, frescura y actitud contemporánea.</p><div class="flex items-center gap-space-sm"><span class="font-label-sm text-label-sm uppercase text-promo-emerald bg-surface-container-lowest px-space-sm py-1 rounded-full">Showroom Córdoba Capital</span></div></div><div class="flex flex-col gap-space-md"><h3 class="font-label-lg text-label-lg uppercase tracking-wider text-charcoal-ink">Medios de Pago</h3><ul class="flex flex-col gap-space-sm font-body-md text-body-md text-charcoal-muted"><li>Transferencia Bancaria <span class="font-label-sm text-label-sm text-promo-emerald font-bold">(30% OFF)</span></li><li>3 y 6 Cuotas Sin Interés</li><li>Mercado Pago (Todas las tarjetas)</li><li>Efectivo en Showroom</li></ul></div><div class="flex flex-col gap-space-md"><h3 class="font-label-lg text-label-lg uppercase tracking-wider text-charcoal-ink">Formas de Envío</h3><ul class="flex flex-col gap-space-sm font-body-md text-body-md text-charcoal-muted"><li>Correo Argentino a todo el país</li><li>Andreani Express puerta a puerta</li><li>Retiro gratuito en Showroom Córdoba</li><li class="font-label-sm text-label-sm text-primary font-bold">Gratis en compras mayores a $150.000</li></ul></div><div class="flex flex-col gap-space-md"><h3 class="font-label-lg text-label-lg uppercase tracking-wider text-charcoal-ink">Atención al Cliente</h3><ul class="flex flex-col gap-space-sm font-body-md text-body-md text-charcoal-muted"><li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px]">storefront</span><span>Showroom Córdoba Capital</span></li><li class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px]">schedule</span><span>Lun a Sáb: 10:00 a 19:30 hs</span></li><li><a class="hover:text-primary transition-colors" data-path="guia-de-talles" href="#">Guía de Talles</a></li><li><a class="hover:text-primary transition-colors" data-path="preguntas-frecuentes" href="#">Preguntas Frecuentes</a></li></ul></div></div><div class="w-full bg-surface-container-high py-space-md"><div class="max-w-[1360px] mx-auto px-margin-mobile lg:px-margin flex flex-col sm:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-charcoal-muted"><div>© 2025 Tienda Glamm. Todos los derechos reservados. Córdoba, Argentina.</div><div class="flex items-center gap-space-lg"><a class="hover:text-charcoal-ink transition-colors" data-path="terminos-y-condiciones" href="#">Términos y Condiciones</a><a class="hover:text-charcoal-ink transition-colors" data-path="defensa-del-consumidor" href="#">Defensa del Consumidor</a></div></div></div></footer><a aria-label="Contacto por WhatsApp" class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-whatsapp-green text-surface-container-lowest flex items-center justify-center shadow-[0_12px_32px_rgba(18,18,18,0.18)] hover:scale-105 transition-transform" href="https://wa.me/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[32px]">chat</span></a></body></html>
